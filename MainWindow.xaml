@@ -1,0 +1,22 @@
+﻿<Window x:Class="filemanipulation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:filemanipulation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" >
+        <Button Content="to create file" Width="100" Height="50" Margin="10" Click="Button_Click"   ></Button>
+        <Button Content="Create and Write text" Width="120" Height="50" Margin="10" Click="Button_Click_1"></Button>
+        <Button Content="delete file" Width="100" Height="50" Margin="10" Click="Button_Click_2"></Button>
+        <Button Content="Create folder" Width="100" Height="50" Margin="10" Click="Button_Click_3"></Button>
+        <Button Content="Create and delete directory" Width="150" Height="50" Margin="10" Click="Button_Click_4"></Button>
+        <Button Content="to check folder" Width="100" Height="50" Margin="10" Click="Button_Click_5"></Button>
+
+
+
+
+
+    </StackPanel>
+</Window>
